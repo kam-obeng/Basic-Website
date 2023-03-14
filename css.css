@@ -1,3 +1,6 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+
 header {
 background-color: blue;
 color: white;
@@ -14,6 +17,14 @@ main {
     background-color: darkblue;
     color: white;
     grid-area: main;
+}
+body {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;grid-template-rows: auto;grid-template-areas:
+    "header header header"
+    "nav nav nav"
+    "main main aside"
+    "footer footer footer";
 }
 
 nav ul {

@@ -17,14 +17,6 @@ main {
     color: white;
     grid-area: main;
 }
-body {
-    display: grid;
-    grid-template-columns: 20% 60% 20%;grid-template-rows: auto;grid-template-areas:
-    "header header header"
-    "nav nav nav"
-    "main main aside"
-    "footer footer footer";
-}
 
 nav ul {
     list-style-type: none;display: grid;grid-template-columns: repeat(5, auto);text-align: center;

@@ -17,7 +17,7 @@ main {
 }
 
 nav ul {
-    list-style-type: none;display: grid;grid-template-columns: repeat(3, auto);text-align: center;
+    list-style-type: none;display: grid;grid-template-columns: repeat(5, auto);text-align: center;
     padding: 20px; margin: 20px ;
 }
 

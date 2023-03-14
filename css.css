@@ -16,6 +16,11 @@ main {
     grid-area: main;
 }
 
+nav ul {
+    list-style-type: none;display: grid;grid-template-columns: repeat(3, auto);text-align: center;
+}
+
+
 aside {
     background-color: lightgreen;
     grid-area: aside;

@@ -5,4 +5,14 @@ body {
     "nav nav nav"
     "main main aside"
     "footer footer footer";
+
+}
+
+nav ul {
+    list-style-type: none;display: grid;grid-template-columns: repeat(5, auto);text-align: center;
+    list-style: none;
+}
+
+header a {
+    display: none;
 }

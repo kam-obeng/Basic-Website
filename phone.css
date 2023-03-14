@@ -26,16 +26,6 @@ body {
     border-top: 0.2em solid #fff;
 }
 
-navigationnav {
-    display: block;
-    background-color: yellow;
-    position: fixed;
-    top: 0;
-    left: 50%;
-    width: 50%;
-    height: 100vh;
-}
-
 #clicked .on {
     display: block;
 }
@@ -55,3 +45,4 @@ navigationnav {
 #clicked:target nav {
     display: none;
 }
+

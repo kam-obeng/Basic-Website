@@ -37,4 +37,5 @@ nav ul {
 
 .icons {
     font-size: 70px;
+    grid-template-columns: repeat(3, auto);text-align: center; 
 }

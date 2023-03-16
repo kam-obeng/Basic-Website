@@ -1,19 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Lao:wght@300&display=swap');
+
 
 header {
-background-color: blue;
+background-color: #551C25;
 color: white;
 padding: 20px;
 grid-area: header;
 }
 
 nav {
-    background-color: yellow;
+    background-color: #262930;
     grid-area: nav;
 }
 
 main {
-    background-color: darkblue;
+    background-color: #010103;
     color: white;
     grid-area: main;
 }
@@ -21,12 +22,12 @@ main {
 
 
 aside {
-    background-color: lightgreen;
+    background-color: #470812;
     grid-area: aside;
 }
 
 footer 
-{background-color: darkgreen;
+{background-color: #551C25;
 color: white;
 grid-area: footer;
 }
@@ -38,4 +39,5 @@ nav ul {
 .icons {
     font-size: 70px;
     grid-template-columns: repeat(3, auto);text-align: center; 
+    color: #010103;
 }

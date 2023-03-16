@@ -16,3 +16,10 @@ nav ul {
 header a {
     display: none;
 }
+
+img{
+    height: 200px;
+    width: 200px;
+    margin-left: 800px;
+    margin-bottom: 10px;
+}

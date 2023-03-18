@@ -2,10 +2,10 @@
 
 
 header {
-background-color: #551C25;
-color: white;
-padding: 20px;
-grid-area: header;
+    background-color: #551C25;
+    color: white;
+    padding: 20px;
+    grid-area: header;
 }
 
 nav {
@@ -26,11 +26,12 @@ aside {
     grid-area: aside;
 }
 
-footer 
-{background-color: #551C25;
-color: white;
-grid-area: footer;
+footer {
+    background-color: #551C25;
+    color: white;
+    grid-area: footer;
 }
+
 nav ul {
 
     list-style: none;
@@ -38,6 +39,9 @@ nav ul {
 
 .icons {
     font-size: 70px;
-    grid-template-columns: repeat(3, auto);text-align: center; 
-    color: #010103;
+    grid-template-columns: repeat(3, auto);
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
 }
+

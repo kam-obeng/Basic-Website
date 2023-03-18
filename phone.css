@@ -46,8 +46,19 @@ body {
     display: none;
 }
 
-img{
+img {
     height: 150px;
     width: 150px;
     margin-left: 100px;
 }
+
+nav {
+    display: block;
+    background-color:#262930;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 100vh;
+}
+
